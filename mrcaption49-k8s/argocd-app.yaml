@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/mrcaption49/-DOCKER_KUBERNETES49_ARGOCD.git
-    targetRevision: HEAD
-    path: .
+    targetRevision: master
+    path: mrcaption49-k8s/
   destination:
     server: https://kubernetes.default.svc
     namespace: default
