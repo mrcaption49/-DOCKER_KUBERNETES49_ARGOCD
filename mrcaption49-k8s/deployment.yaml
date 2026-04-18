@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mrcaption49
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: mrcaption49
+  template:
+    metadata:
+      labels:
+        app: mrcaption49
+    spec:
+      containers:
+        - name: mrcaption49
+          image: mrcaption649/mrcaption49:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
