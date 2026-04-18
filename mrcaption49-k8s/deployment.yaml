@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mrcaption49
 spec:
-  replicas: 4
+  replicas: 5
   selector:
     matchLabels:
       app: mrcaption49
