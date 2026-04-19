@@ -11,3 +11,11 @@
 
 9) kubectl port-forward svc/argocd-server -n argocd 8080:443  
 10) minikube service mrcaption49-service --url
+
+
+11) kubectl get svc 
+12) minikube service mrcaption49-service 
+
+
+13) kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}"  
+14) [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("OXY5NFZkdmFZVEo5dU9YOA=="))
