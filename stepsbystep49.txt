@@ -1,0 +1,13 @@
+1) venv\Scripts\activate 
+2) cd mrcaption49
+3) python manage.py runserver
+
+4) minikube start  
+5) git add .
+6) git commit -m "replica-set modified ==> 5" 
+7)  git push -u origin master 
+8) minikube service mrcaption49 
+
+
+9) kubectl port-forward svc/argocd-server -n argocd 8080:443  
+10) minikube service mrcaption49-service --url
