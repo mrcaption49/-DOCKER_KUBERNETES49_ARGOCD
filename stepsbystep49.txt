@@ -1,4 +1,4 @@
-1) venv\Scripts\activate 
+1) In th root folder ==> venv\Scripts\activate 
 2) cd mrcaption49
 3) python manage.py runserver
 
